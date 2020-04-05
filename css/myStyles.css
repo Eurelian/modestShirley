@@ -1,0 +1,241 @@
+html {
+    font-size: 16px;
+    
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.wrapper {
+    padding: 5%;
+  }
+
+  a {
+    text-decoration: none;
+    color: black; 
+}
+a:hover {
+    text-decoration: none;
+    color: black; 
+}
+
+ /* Navigation bar  */
+.navbar button, .navbar button:hover {
+    background-color: transparent;
+}
+
+.navbar-contain {
+    border-bottom:1px solid #e2e2e2;
+}
+
+img.rounded-btm {
+    border-radius:0 0 0.5em 0.5em!important;
+}
+img.rounded {
+    border-radius:0.5em!important;
+}
+
+.extraInfo {
+    background-color: #f5f5f5;
+    box-shadow: 0px 3px 6px #00000029;
+    color: #9a9a9a;
+    text-align: center;
+    margin-top:-0.5em;
+    z-index:-1;
+}
+
+.extraInfoMkt p {
+    color: #c9c9c9;
+}
+
+.infoTitleMkt {
+    color: #c9c9c9;
+}
+
+.extraInfoMkt span {
+    color: #c9c9c9;
+    font-size:2.5rem; 
+}
+
+.recipeTitle {
+    margin-top: 5rem;
+}
+
+.recipeTitle h1, .recipeTitle h5, .stepLabel,  
+h2.title, h5.card-title, .catTitle {
+    font-family: "Merriweather", serif;
+}
+
+.stepLabel {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.ingredientTitle, .navbar-brand  {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+.material-icons, .material-icons-outlined, .recipeCards {
+    color: #c9c9c9;
+}
+
+.card-img-overlay p {
+    font-size: 0.8125rem;
+}
+
+h5.card-title {
+color: #333;
+}
+
+a.recipeLink, a.recipeLink:hover {
+    color: #9A9A9A;
+    cursor: pointer;
+}
+
+hr {
+    width: 50%;
+    border-top: 1px solid #cbcbcb;
+}
+
+.card {
+    border: 0;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    color:#ffffff;
+    background-color:#333;
+    padding: 5em 0 1em 0;
+    margin-bottom: 0;
+}
+
+.footer a, footer button {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.footer a:hover, footer button:hover {
+    color:rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+}
+footer form button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+a.iconSm {
+    font-size: 1.5rem;
+}
+
+.mktImage {
+    box-shadow: 3px 11px 24px -16px rgba(0,0,0,0.75);
+}
+
+/* BUTTON FILTER */
+/* Style the buttons */
+
+.filterTitle {
+    font-weight: 300;
+}
+
+.filterTitle h1 {
+    font-size: 3rem;
+}
+
+.btn {
+    background-color: #f1f1f1;
+}
+
+.btn:hover {
+    background-color: #ffd739;
+}
+
+.btn.active {
+    background-color: #ffd739;
+}
+
+.grow { 
+    transition: all .3s ease-in-out; 
+}
+.grow:hover {
+    transform: scale(1.05); 
+}
+
+.filterResults .form-check {
+    padding:1em auto;
+}
+
+
+
+/* Marketing Image */
+  
+  .article-category-small {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.75rem;
+    color: #646260;
+  }
+  
+  .article-title-big {
+    font-family: "Merriweather", serif;
+    font-size: 45px;
+    line-height: 1.25;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    margin-top: 18px;
+    color: #000000;
+  }
+  
+  .article-preview > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffd739;
+  }
+  
+  .article-preview {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .card-img-overlay {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    opacity: 0;
+    transition: 0.5s ease;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      360deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(15, 15, 15, 0.7868020304568528) 28%,
+      rgba(107, 107, 107, 0) 55%,
+      rgba(255, 255, 255, 0) 100%);
+  }
+  
+  .hover-zoom:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    box-shadow: 0px 10px 46px 0px rgba(0, 0, 0, 0.4);
+  }
+  .card:hover .card-img-overlay {
+    opacity: 1;
+  }
+  
+  .card-img-overlay p {
+    margin: 0;
+  }
+
+  @media (max-width: 510px) {
+    .myBtnContainer a  {
+        font-size: 1rem;
+        padding: 0.5em;
+    }
+  }

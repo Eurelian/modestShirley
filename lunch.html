@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modest Shirley</title>
+  <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
+
+  <!-- Fontawsome -->
+  <script src="https://kit.fontawesome.com/4313c5938d.js" crossorigin="anonymous"></script>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Google Icons-->
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+  <!-- Bootstrap Stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/myStyles.css">
+
+  <!-- Animate on Scroll CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <div class="container navbar-contain">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="index.html">Modest Shirley</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#"></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <button class="btn my-2 my-sm-0" type="submit">
+                <span class="material-icons">search</span>
+            </button>
+          </form>
+        </div>
+      </nav>
+</div>
+
+<div class="container mt-5">
+    <!-- BIG TITLE -->
+    <h1 data-aos="fade-right" class="text-center catTitle">Lunch, Lunch Baby</h1>
+</div>
+<!-- Filter Button -->
+<div class="container">
+    <div class="d-flex justify-content-end dropdown">
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Filter by
+        </button>
+        <div class="dropdown-menu pl-2" aria-labelledby="dropdownMenuButton">
+            <div class="form-check py-1">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Time
+                </label>
+              </div>
+              <div class="form-check py-1">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Complexity
+                </label>
+              </div>
+              <div class="form-check py-1">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                  Price
+                </label>
+              </div>
+              <div class=" d-flex justify-content-center">
+        </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container pt-5">
+    <!-- ROW -->
+    <div class="row justify-content-start">
+
+      <!-- CARD LUNCH-->
+      <div data-aos="fade-up" class="col-lg-4 col-md-6 mb-4">
+        <div class="recipeCards">
+          <a href="recipe.html" class="recipeLink">
+            <div class="card bg-dark grow">
+                <img src="images\Lch_001_chickenSalad.jpg" alt="Chicken and avocado salad with blueberry vinaigrette" class="card-img">
+                <div class="card-img-overlay d-flex flex-row">
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons md-40 pb-1">timer</span>
+                        <p>20 min</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">pan_tool</span>
+                        <p>Easy</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">account_balance_wallet</span>
+                        <p>Cheap</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">local_pizza</span>
+                        <p>2 pax</p>
+                    </div>
+                </div>
+            </div>
+          </a>
+          <div class="overlay d-flex flex-column justify-content-center align-items-start mt-3">
+              <h5 class="card-title">Chicken and avocado salad with blueberry vinaigrette</h5>
+          </div>
+        </div>
+    </div>
+      <!-- CARD END -->
+
+      <!-- CARD LUNCH-->
+      <div data-aos="fade-up" class="col-lg-4 col-md-6 mb-4">
+        <div class="recipeCards">
+          <a href="recipe.html" class="recipeLink">
+            <div class="card bg-dark grow">
+                <img src="images\Lch_002_zucchiniSpaghetti.jpg" alt="Mediterranean zucchini spaghetti with lemon sauce" class="card-img">
+                <div class="card-img-overlay d-flex flex-row">
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons md-40 pb-1">timer</span>
+                        <p>20 min</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">pan_tool</span>
+                        <p>Easy</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">account_balance_wallet</span>
+                        <p>Cheap</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">local_pizza</span>
+                        <p>2 pax</p>
+                    </div>
+                </div>
+            </div>
+          </a>
+          <div class="overlay d-flex flex-column justify-content-center align-items-start mt-3">
+              <h5 class="card-title">Mediterranean zucchini spaghetti with lemon sauce</h5>
+          </div>
+        </div>
+    </div>
+      <!-- CARD END -->
+
+      <!-- CARD LUNCH-->
+      <div data-aos="fade-up" class="col-lg-4 col-md-6 mb-4">
+        <div class="recipeCards">
+          <a href="recipe.html" class="recipeLink">
+            <div class="card bg-dark grow">
+                <img src="images\Lch_003_AsparagusFrittata.jpg" alt="Asparagus and herb frittata" class="card-img">
+                <div class="card-img-overlay d-flex flex-row">
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons md-40 pb-1">timer</span>
+                        <p>20 min</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">pan_tool</span>
+                        <p>Easy</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">account_balance_wallet</span>
+                        <p>Cheap</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">local_pizza</span>
+                        <p>2 pax</p>
+                    </div>
+                </div>
+            </div>
+          </a>
+          <div class="overlay d-flex flex-column justify-content-center align-items-start mt-3">
+              <h5 class="card-title">Asparagus and herb frittata</h5>
+          </div>
+        </div>
+    </div>
+      <!-- CARD END -->
+
+      <!-- CARD LUNCH-->
+      <div data-aos="fade-up" class="col-lg-4 col-md-6 mb-4">
+        <div class="recipeCards">
+          <a href="recipe.html" class="recipeLink">
+            <div class="card bg-dark grow">
+                <img src="images\Lch_004_babaGanoush.jpg" alt="Lebanese Baba Ganoush With Pomegranate" class="card-img">
+                <div class="card-img-overlay d-flex flex-row">
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons md-40 pb-1">timer</span>
+                        <p>20 min</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">pan_tool</span>
+                        <p>Easy</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">account_balance_wallet</span>
+                        <p>Cheap</p>
+                    </div>
+                    <div class=" d-flex flex-column align-items-center">
+                        <span class="material-icons-outlined md-40 pb-1">local_pizza</span>
+                        <p>2 pax</p>
+                    </div>
+                </div>
+            </div>
+          </a>
+          <div class="overlay d-flex flex-column justify-content-center align-items-start mt-3">
+              <h5 class="card-title">Lebanese Baba Ganoush With Pomegranate</h5>
+          </div>
+        </div>
+    </div>
+      <!-- CARD END -->
+
+    </div>
+    <!-- ROW END  -->
+  </div>
+  <div class="container mt-5">
+    <!-- filterTtile -->
+    <h2 class="text-center filterTitle">Have something else in mind?</h2>
+    <!-- filter Buttons -->
+    <div class="container mb-3 mt-5">
+        <div class="d-flex justify-content-center">
+            <div class="myBtnContainer">
+                <a href="breakfast.html" role="button" class="btn btn-lg mr-2 mb-2 grow"> Breakfast</a>
+                <a href="lunch.html" role="button" class="btn btn-lg mr-2 mb-2 grow active">Lunch</a>
+                <a href="dinner.html" role="button" class="btn btn-lg mr-2 mb-2 grow">Dinner</a>
+                <a href="dessert.html" role="button" class="btn btn-lg mb-2 grow">Dessert</a>
+            </div>
+        </div>
+    </div> 
+</div>
+  <div class="wrapper"></div>
+  <!-- Footer -->
+  <div  data-aos="fade-up" class="footer">
+    <div class="conatiner">
+        <div class="container d-flex justify-content-start">
+            <div class="row">
+                <div class="container col-lg-4 mb-5">
+                    <h5 class="mb-3">Follow Shirley</h5>
+                    <a href="https://www.facebook.com" class="iconSm mr-3" target="_blank"><i class="fab fa-facebook-f"></i></a> 
+                    <a href="https://www.instagram.com" class="iconSm mr-3" target="_blank"><i class="fab fa-instagram"></i> </a> 
+                    <a href="https://www.youtube.com" class="iconSm mr-3" target="_blank"><i class="fab fa-youtube"></i></a> 
+                </div>
+            <div class="col-lg-4 mb-5">
+                <h5 class="mb-3">Contact Shirley</h5>
+                Shirley would love to hear from you, drop her a note at: <a href="mailto:hi@shirley.com?subject=Shirley, why are you so Modest?">hi@shirley.com</a>
+            </div>
+            <div class="container col-lg-4 mb-5">
+                <h5 class="mb-3">Listen to Shirley</h5>
+                <label for="exampleInputEmail1">Get her newsletter.</label>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <input type="email" class="form-control mb-2 mr-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <button type="submit" class="btn btn-primary bg-white text-dark mb-2 d-lg-inline-block">Submit</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </form>
+                <small id="emailHelp" class="form-text text-muted">Shirley's got something to say.</small>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <a href="#" class="badge-dark mr-5">Terms & Conditions</a> <a href="#" class="badge-dark mr-5">Legal</a> <a href="#" class="badge-dark mr-5">Privacy Policy</a>
+    </div>
+</div>
+
+  <!-- Animate on Scroll (AOS) Javascript from: https://github.com/michalsnik/aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Bootstrap Javascript -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+</html>
